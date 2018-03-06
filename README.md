@@ -7,6 +7,7 @@ The doxygen documentation is provided in the folder documentation.
 It is easier to use it at your local machine.
 Compile with:
 
+    git clone https://github.com/vkulikovskiy/OMGsim
     cd OMGsim
     doxygen documentation/config.dox
     cd documentation/latex
