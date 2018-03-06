@@ -1,0 +1,20 @@
+
+Name = "10inches";
+Prefix = "REFLEX";
+
+RadiusSphere   = 136.7;
+BulbRadiusMin  = 110.;
+BulbRadiusMax  = 126.5;
+BulbHeight     = 80.;
+ConeHeight     = 40.;
+TubeRadius     = 42.25;
+GlassThickness = 1.;
+TotalPMTHeight = 245.;
+DinodsPos      = -45.;
+DinodsRadius   = 32.5;
+DinodsHeight   = 35.;
+
+CheckOverlaps = true;
+
+PhotoCathodeMaterial = "photocathode10inches";
+InternalReflectorMaterial = "PMTInternalSurface";

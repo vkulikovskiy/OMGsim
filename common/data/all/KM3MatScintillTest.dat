@@ -1,0 +1,20 @@
+# materials.dat
+# material properties input data file for GenericLAND
+# read by GLG4InputDataReader
+#
+# Default "generic" version:  Glenn Horton-Smith, Dec 8, 2004
+#
+
+
+CREATE ScintillTest
+
+DENSITY 0.867
+
+COMPONENT G4_TOLUENE
+
+CREATE
+
+PROPERTY RINDEX
+OPTION eV
+2 1.5
+5 1.5

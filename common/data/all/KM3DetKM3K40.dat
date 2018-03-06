@@ -1,0 +1,23 @@
+Name = "KM3K40"
+
+OM1:
+  {
+        Name = "KM3DOM";
+        ID   = 1;
+        X      = 0;
+        Y      = 0;
+        Z      = 0;
+        Theta  = 3.1451;
+        Phi    = 0.;
+  };
+
+#OM2:
+#  {
+#        Name = "KM3DOMNoRef";
+#        ID   = 2;
+#        X      = 0;
+#        Y      = 0;
+#        Z      = -2000;
+#        Theta  = 3.14159;
+#        Phi    = 0.;
+#  };

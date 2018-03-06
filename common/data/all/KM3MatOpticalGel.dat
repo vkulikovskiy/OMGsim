@@ -1,0 +1,253 @@
+#optical gel used in optical modules
+#ANTAERS early 100A/40B
+#ANTARES late ~100A/65B + a bit of B to have hardest stiffness  "A100B67"
+#NEMO 100A/50B
+#KM3NeT 150A/100B  - "A100B67"
+#From the note: https://drive.google.com/file/d/0B-oDhZjfBP59OWxjYkdYbi1lczg/view
+#Up to 2005, for the first 200 OMs in Antares a Silgel mixture of 100 A and 40 B is used, than the mixture was changed in 100 A and approx. 65 B. (between 60
+#and 70), each batch is tested for its stiffness and the amount of B adjusted if necessary to obtain a constant stiffness.
+#The refractive index at Antares is measured; 1.404
+#This procedure was started after a Dom tested at 310 bar showed a large layer of air between gel and glass.
+#According to wacker the hardest formulation is achieved with a mixing ratio for A : B of roughly 100 : 67, according to Antares this is 100:50
+
+CREATE WackerSilGel612_A100B60
+
+DENSITY 1. #boh?
+
+COMPONENTS
+
+G4_O 1.0 #taken from original km3sim
+
+COMPONENTS
+
+CREATE
+
+PROPERTY ABSLENGTH
+#scanned from https://drive.google.com/open?id=0B-oDhZjfBP59OWxjYkdYbi1lczg 60B
+OPTION wavelength
+248.377 24.41
+299.249 100.28
+350.223 327
+403.505 330.89
+487.102 317.89
+600.22 322.29
+#OPTION eV
+#2.034       975
+#2.13        975
+#2.18        966
+#2.22        935
+#2.25        890
+#2.3 898
+#2.34        876
+#2.43        844
+#2.53        786
+#2.67        727
+#2.79        674
+#3.1 566
+#3.28        485
+#3.56        360
+#3.77        220
+#4.136       220
+
+PROPERTY RINDEX
+#scanned from Jinst_8_07_P07001(2013) The optical modules of the phase-2 of the NEMO project 60B
+OPTION wavelength
+250.836 1.434211
+258.284 1.440132
+265.731 1.445066
+278.144 1.453947
+294.274 1.459868
+313.51 1.470724
+325.298 1.475658
+335.848 1.482566
+346.377 1.469737
+354.439 1.469737
+366.838 1.465789
+378.001 1.465789
+395.365 1.465789
+420.796 1.469737
+443.123 1.471711
+478.475 1.474671
+533.054 1.479605
+592.59 1.480592
+694.299 1.484539
+701.121 1.484823
+#OPTION eV
+#2   1.404
+#4.2 1.404
+
+
+
+CREATE WackerSilGel612_A100B50
+DENSITY 1. #boh?
+
+COMPONENTS
+
+G4_O 1.0 #taken from original km3sim
+
+COMPONENTS
+
+CREATE
+
+
+PROPERTY ABSLENGTH
+#scanned from https://drive.google.com/open?id=0B-oDhZjfBP59OWxjYkdYbi1lczg 50B
+OPTION wavelength
+249.206 38.14
+300.9 117.44
+349.35 248.14
+402.662 296.59
+448.585 327.85
+501.046 331.72
+551.876 345.87
+601.061 353.15
+#OPTION eV
+#2.034       516.784
+#2.13        516.784
+#2.18        512.014
+#2.22        495.583
+#2.25        471.731
+#2.3 475.972
+#2.34        464.311
+#2.43        447.35
+#2.53        416.608
+#2.67        385.336
+#2.79        357.244
+#3.1 300
+#3.28        257.067
+#3.56        190.813
+#3.77        116.608
+#4.136       116.608
+
+PROPERTY RINDEX
+#taken from Jinst_8_07_P07001(2013) The optical modules of the phase-2 of the NEMO project 50B
+#the same one is used in KM3NeT
+OPTION wavelength
+249.931 1.454187
+260.533 1.466995
+278.62 1.489655
+289.214 1.498522
+308.513 1.505419
+322.841 1.515271
+353.326 1.516256
+380.075 1.516256
+433.585 1.521182
+525.033 1.522167
+605.29 1.526108
+700.469 1.526108
+#OPTION eV
+#2   1.5
+#4.2 1.5
+
+
+CREATE WackerSilGel612_A100B67
+DENSITY 1. #boh?
+
+COMPONENTS
+
+G4_O 1.0 #taken from original km3sim
+
+COMPONENTS
+
+CREATE
+
+
+PROPERTY ABSLENGTH
+#scanned from https://drive.google.com/open?id=0B-oDhZjfBP59OWxjYkdYbi1lczg interpolation between 60 and 70
+OPTION wavelength
+250 29.9306
+260 41.5051
+270 53.0795
+280 64.6539
+290 76.2283
+300 88.5428
+310 138.991
+320 191.003
+330 243.014
+340 295.026
+350 343.771
+360 343.898
+370 343.701
+380 343.503
+390 343.305
+400 343.107
+410 341.952
+420 340.183
+430 338.414
+440 336.644
+450 334.875
+460 331.911
+470 328.833
+480 325.755
+490 322.865
+500 320.436
+510 321.467
+520 322.607
+530 323.747
+540 324.888
+550 326.028
+560 327.539
+570 329.429
+580 331.319
+590 333.209
+600 335.099
+610 336.989
+620 338.879
+630 340.769
+640 342.659
+650 344.549
+660 346.439
+670 348.329
+680 350.219
+690 352.11
+700 354
+
+PROPERTY RINDEX
+#taken from Jinst_8_07_P07001(2013) data for 60B and 70B is scanned and linear interpolation to reach 66.66B is done 
+OPTION wavelength
+250 1.39573
+260 1.40228
+270 1.40869
+280 1.41312
+290 1.41508
+300 1.41796
+310 1.42016
+320 1.42308
+330 1.4258
+340 1.42486
+350 1.41775
+360 1.41561
+370 1.41436
+380 1.41398
+390 1.41327
+400 1.41327
+410 1.41354
+420 1.41381
+430 1.41403
+440 1.4143
+450 1.41455
+460 1.4148
+470 1.41504
+480 1.41529
+490 1.41556
+500 1.41583
+510 1.4161
+520 1.41637
+530 1.41664
+540 1.41674
+550 1.41677
+560 1.41679
+570 1.41682
+580 1.41684
+590 1.41686
+600 1.41694
+610 1.41704
+620 1.41714
+630 1.41724
+640 1.41733
+650 1.41743
+660 1.41753
+670 1.41763
+680 1.41773
+690 1.41782
+700 1.41793

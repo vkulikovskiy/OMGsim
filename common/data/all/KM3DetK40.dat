@@ -1,0 +1,77 @@
+Name = "K40cfg"
+
+OM1:
+  {
+        Name = "AntaresOM";
+        ID   = 1;
+        X      = 0;
+        Y      = -410;
+        Z      = 0;
+        Theta  = 0.7854;
+        Phi    = 0;
+  };
+
+
+OM2:
+  {
+        Name = "AntaresOM";
+        ID = 2;
+        X = 355.1;
+        Y = 205.;
+        Z = 0;
+        Theta = 0.7854;
+        Phi = 2.0933;
+  };
+
+
+OM3:
+  {
+        Name = "AntaresOM";
+        ID = 3;
+        X = -355.;
+        Y = 205.1;
+        Z = 0;
+        Theta = 0.7854;
+        Phi = -2.0933;
+  };
+
+OM4:
+  {
+        Name = "NEMOOM";
+        ID = 4;
+        X = 0.;
+        Y = 0.;
+        Z = -1000;
+        Theta = 3.14159;
+        Phi = 0;
+   }
+OM5:
+  {
+        Name = "NEMOOM";
+        ID = 5;
+        X = 0.;
+        Y = -500.;
+        Z = -580;
+        Theta = 1.57079632679489661923e0;
+        Phi = 0;
+   }
+Volume1:
+{
+        Name = "BigCapUnion";
+        ID =1;
+        X = 0.;
+        Y = -500.;
+        Z = -580.;
+        Theta = 1.5707963;
+        Phi = 0;
+}
+Volume2:
+{
+        Name = "SmallCapUnion";
+        ID =1;
+        X = 0.;
+        Y = 0.;
+        Z = -1000.;
+        Theta = 0;
+        Phi = 7.85398163397448309616e-1;
+}

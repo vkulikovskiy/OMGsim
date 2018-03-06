@@ -1,0 +1,181 @@
+CREATE RoughAluminium #for the mushroom, as material and surface
+
+DENSITY 2.7
+
+COMPONENTS
+G4_Al   40   #5
+COMPONENTS
+
+CREATE
+
+PROPERTY groundfrontpainted
+OPTION constant
+1
+
+PROPERTY unified
+OPTION constant
+1
+
+PROPERTY sigmaalpha
+OPTION constant
+1.
+
+PROPERTY REFLECTIVITY
+OPTION eV
+2 0.92
+6 0.92
+
+
+#########################################----
+
+CREATE MirrorAluminium #for the reflective cons and PMT internal (considered equivalent)
+
+DENSITY 2.7
+
+COMPONENTS
+G4_Al   40   #5
+COMPONENTS
+
+CREATE
+
+PROPERTY polishedfrontpainted
+OPTION constant
+1
+
+PROPERTY unified
+OPTION constant
+1
+
+PROPERTY sigmaalpha
+OPTION constant
+0.01
+
+PROPERTY REFLECTIVITY
+OPTION eV
+2 0.92
+6 0.92
+
+########################################----
+CREATE PMTInternalSurface #for the reflective cons and PMT internal (considered equivalent)
+DENSITY 2.7
+
+COMPONENTS
+G4_Al   40   #5
+COMPONENTS
+
+CREATE
+
+PROPERTY dielectric_metal
+OPTION constant
+1
+
+PROPERTY ground
+OPTION constant
+1
+
+PROPERTY glisur
+OPTION constant
+1
+
+PROPERTY polish
+OPTION constant
+0.95
+
+PROPERTY REFLECTIVITY
+OPTION eV
+2 0.8
+6 0.9
+
+########################################----
+CREATE DinodsSurface #for the reflective cons and PMT internal (considered equivalent)
+
+DENSITY 2.7
+
+COMPONENTS
+G4_Al   40   #5
+COMPONENTS
+
+CREATE
+
+PROPERTY groundfrontpainted
+OPTION constant
+1
+
+PROPERTY glisur
+OPTION constant
+1
+
+PROPERTY polish
+OPTION constant
+0.7
+
+PROPERTY REFLECTIVITY
+OPTION eV
+2 0.035
+6 0.040
+
+#########################################----
+
+#########################################----
+CREATE CapDinodsSurface #for the dynode cap
+
+DENSITY 2.7
+
+COMPONENTS
+G4_Al   40   #5
+COMPONENTS
+
+CREATE
+
+PROPERTY groundfrontpainted
+OPTION constant
+1
+
+PROPERTY glisur
+OPTION constant
+1
+
+PROPERTY polish
+OPTION constant
+0.7
+
+PROPERTY REFLECTIVITY
+OPTION eV
+#2 0.62
+#6 0.7
+2 0.45
+6 0.51
+
+
+#########################################----
+
+CREATE GridDinodsSurface #for the dynode grids area and back of the dynode stack (considered equivalent)
+
+DENSITY 2.7
+
+COMPONENTS
+G4_Al   40   #5
+COMPONENTS
+
+CREATE
+
+PROPERTY groundfrontpainted
+OPTION constant
+1
+
+PROPERTY glisur
+OPTION constant
+1
+
+PROPERTY polish
+OPTION constant
+0.3
+
+PROPERTY REFLECTIVITY
+OPTION eV
+#2 0.005
+#6 0.0060
+2 0.25
+6 0.25
+
+#########################################----

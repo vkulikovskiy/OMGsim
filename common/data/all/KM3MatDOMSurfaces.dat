@@ -1,0 +1,47 @@
+CREATE AbsorberSurf
+
+DENSITY 2.230
+
+COMPONENTS
+G4_B   40   #5
+COMPONENTS
+
+CREATE
+
+PROPERTY ground
+OPTION constant
+1
+
+
+PROPERTY unified
+OPTION constant
+1
+
+PROPERTY sigmaalpha
+OPTION constant
+1
+
+#########################################----
+
+CREATE BentoSurf
+
+DENSITY 2.230
+
+COMPONENTS
+G4_B   40   #5
+COMPONENTS
+
+CREATE
+
+PROPERTY ground
+OPTION constant
+1
+
+
+PROPERTY unified
+OPTION constant
+1
+
+PROPERTY sigmaalpha
+OPTION constant
+0 #0.15

@@ -1,0 +1,12 @@
+Name = "WLSblock";
+
+Prefix = "";
+
+Material = "WLSTest";
+
+VolumeKind = "Box";
+X = 1900;
+Y = 1900;
+Z = 1900;
+
+CheckOverlaps = false;

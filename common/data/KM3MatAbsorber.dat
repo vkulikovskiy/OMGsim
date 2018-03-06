@@ -1,0 +1,30 @@
+#antares, nemo and KM3NeT Absorber
+
+CREATE AbsorberPVC
+
+DENSITY 1.3
+
+COMPONENTS
+
+G4_POLYVINYL_CHLORIDE 1
+
+COMPONENTS
+
+CREATE
+
+PROPERTY groundfrontpainted
+OPTION constant
+1
+
+PROPERTY unified
+OPTION constant
+1
+
+PROPERTY sigmaalpha
+OPTION constant
+1.
+
+PROPERTY REFLECTIVITY
+OPTION eV
+2 0.03
+6 0.03

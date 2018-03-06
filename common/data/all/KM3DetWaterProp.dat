@@ -1,0 +1,107 @@
+Name = "WaterProp"
+
+Volume1:
+{
+        Name = "1Floor";
+        ID = 1;
+        X = 0;
+        Y = 0.;
+        Z = 0.;
+        Theta = 0.;
+        Phi = 0.;
+};
+
+Volume2:
+{
+        Name = "2Floor";
+        ID = 2;
+        X = 0;
+        Y = 0.;
+        Z = 0.;
+        Theta = 0.;
+        Phi = 0.;
+};
+
+
+Volume3:
+{
+        Name = "3Floor";
+        ID = 3;
+        X = 0;
+        Y = 0.;
+        Z = 0.;
+        Theta = 0.;
+        Phi = 0.;
+};
+
+
+Volume4:
+{
+        Name = "4Floor";
+        ID = 4;
+        X = 0;
+        Y = 0.;
+        Z = 0.;
+        Theta = 0.;
+        Phi = 0.;
+};
+
+
+Volume5:
+{
+        Name = "5Floor";
+        ID = 5;
+        X = 0;
+        Y = 0.;
+        Z = 0.;
+        Theta = 0.;
+        Phi = 0.;
+};
+
+
+Volume6:
+{
+        Name = "6Floor";
+        ID = 6;
+        X = 0;
+        Y = 0.;
+        Z = 0.;
+        Theta = 0.;
+        Phi = 0.;
+};
+
+
+Volume7:
+{
+        Name = "7Floor";
+        ID = 7;
+        X = 0;
+        Y = 0.;
+        Z = 0.;
+        Theta = 0.;
+        Phi = 0.;
+};
+
+
+Volume8:
+{
+        Name = "8Floor";
+        ID = 8;
+        X = 0;
+        Y = 0.;
+        Z = 0.;
+        Theta = 0.;
+        Phi = 0.;
+};
+
+
+Volume9:
+{
+        Name = "9Floor";
+        ID = 9;
+        X = 0;
+        Y = 0.;
+        Z = 0.;
+        Theta = 0.;
+        Phi = 0.;
+};

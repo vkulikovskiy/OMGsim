@@ -1,0 +1,27 @@
+
+Name = "3inches";
+Prefix = "3inches";
+
+RadiusSphere   = 52.5; //internal radius is 50 cm from the drawing, external radius is 50 + glass thickness 2.5 cm
+BulbRadiusMin  = 35.95;
+BulbRadiusMax  = 40.;
+BulbHeight     = 18.;  //measuring with a ruler Hamamatsu scheme
+ConeHeight     = 10.;
+TubeRadius     = 25.45;
+
+//According to measurement performed by Carlos Mollo (Naples) the part containg photoacathode has 2.4 mm thickness. 
+//The rest changes from 1.3-1.7m. Also this values change for different PMTs
+GlassThickness = 2.5;
+
+TotalPMTHeight = 96.;
+//TubeExt_Height-TotalPMTHeight/2-DinodsHeight = (25.3494)*2-48-12+2(Vladimir: I've added 2 by eye... it was needed for some reason)
+DinodsPos      = -7.3012;
+DinodsRadius   = 19.45; //the radius takes almost all the tube (TubeRadius-GlassThickness-3mm?)
+DinodsHeight   = 12.;
+
+CheckOverlaps = false;
+
+PhotoCathodeMaterial = "photocathode3inches";
+//New pmt glass, transparent to UV added by V. Kulikovskiy
+GlassMaterial = "PMTGlass_R12199_02";
+PMTSurface = "PMTSurface";

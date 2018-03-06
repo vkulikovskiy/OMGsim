@@ -1,0 +1,11 @@
+Name = "AntaresOM";
+DetectionUnitType="OM";
+PhotoTubeName = "10inches";
+Prefix = "OM11";
+SphereRmax       = 215.9;
+GlassThickness   = 15;
+AbsorberOvertake = 10.;
+GelOvertake      = 15;
+DistSpherePMT    = 5;
+
+CheckOverlaps = true;

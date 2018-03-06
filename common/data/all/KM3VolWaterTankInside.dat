@@ -1,0 +1,13 @@
+Name = "WaterTankInside";
+
+Prefix = "";
+
+Material = "AntaresWater";
+
+VolumeKind = "Box";
+X = 1900;
+Y = 1900;
+Z = 190;
+
+CheckOverlaps = false;
+SkinMaterial="AbsorberSurf";

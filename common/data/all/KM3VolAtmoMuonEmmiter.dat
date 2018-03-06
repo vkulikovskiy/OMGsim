@@ -1,0 +1,15 @@
+Name = "AtmoMuonSource";
+
+Prefix = "";
+
+Material = "Vacuum";
+
+VolumeKind = "Sphere";
+RadiusMin  = 215.9 ;
+RadiusMax  = 217. ;
+PhiMin     = 0.;
+PhiMax     = 6.3;
+ThetaMin   = 0.;
+ThetaMax   = 1.57079632679489656;
+
+CheckOverlaps = false;

@@ -1,0 +1,22 @@
+CREATE RoughAirGap #for the gap between both emmispheres
+
+DENSITY 1e-9
+
+COMPONENTS
+G4_N   40   #5
+COMPONENTS
+
+CREATE
+
+PROPERTY ground
+OPTION constant
+1
+
+
+PROPERTY unified
+OPTION constant
+1
+
+PROPERTY sigmaalpha
+OPTION constant
+0.4

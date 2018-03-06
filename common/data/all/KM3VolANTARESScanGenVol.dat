@@ -1,0 +1,46 @@
+
+GenSphere:
+{
+      Name = "GenSphere";
+
+      Prefix ="";
+
+      VolumeKind = "Sphere";
+
+      RadiusMin=220;
+      RadiusMax=422;
+      PhiMin=0   ;
+      PhiMax=6.9   ;
+      ThetaMin=0. ;
+      ThetaMax= 3; #3.15;
+      CheckOverlaps = false;
+}
+
+GenPave:
+{
+        Name = "GenPave";
+        Prefix = "";
+
+        VolumeKind = "Box";
+        X = 1;
+        Y = 211;
+        Z = 844; #422;
+        CheckOverlaps = false;
+}
+
+GenInter:
+{
+        Name= "GenInter";
+        Prefix = "";
+        Material = "Air";
+
+        VolumeKind = "Intersection";
+        X = 0;
+        Y = 211;
+        Z = 0; #211;
+        RotTheta = 0;
+        RotPhi = 0;
+        RefVolume = "GenSphere";
+        OperandVolume = "GenPave";
+        CheckOverlaps = false;
+}

@@ -1,0 +1,11 @@
+Name = "NEMOOM";
+DetectionUnitType="OM";
+PhotoTubeName = "10inches";
+Prefix = "OM11";
+SphereRmax       = 165.1;
+GlassThickness   = 12;
+AbsorberOvertake = 20.;
+GelOvertake      = 17.;
+DistSpherePMT    = 2;
+
+CheckOverlaps = true;

@@ -1,0 +1,13 @@
+Name = "DOMAloneTest"
+
+
+OM1:
+{
+        Name = "KM3DOMTest";
+        ID = 1;
+        X = 0.;
+        Y = 0.;
+        Z = 0.;
+        Theta = 3.141592;
+        Phi = 0.;
+};

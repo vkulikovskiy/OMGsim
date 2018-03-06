@@ -1,0 +1,27 @@
+
+Name = "3andhalfinches";
+Prefix = "3andhalfinches";
+
+RadiusSphere   = 59.4;
+BulbRadiusMin  = 42.8;   #scaling 3-inch pmt value to 59.4/50 (radii)
+BulbRadiusMax  = 45.;
+BulbHeight     = 23.8;   #scaling 3-inch pmt value to 59.4/50 (radii) 
+ConeHeight     = 11.9;   #scaling 3-inch pmt value to 59.4/50 (radii) 
+TubeRadius     = 26;
+
+//According to measurement performed by Carlos Mollo (Naples) the part containg photoacathode has 2.4 mm thickness. 
+//The rest changes from 1.3-1.7m. Also this values change for different PMTs
+GlassThickness = 2.5;
+
+TotalPMTHeight = 114.;    #scaling 3-inch pmt value to 59.4/50 (radii)
+//TubeExt_Height-TotalPMTHeight/2-DinodsHeight = (25.3494)*2-48-12+2(Vladimir: I've added 2 by eye... it was needed for some reason)
+DinodsPos      = -8.7;    #scaling 3-inch pmt value to 59.4/50 (radii)
+DinodsRadius   = 23.1;    #scaling 3-inch pmt value to 59.4/50 (radii)
+DinodsHeight   = 14.3;     #scaling 3-inch pmt value to 59.4/50 (radii)
+
+CheckOverlaps = true;
+
+PhotoCathodeMaterial = "photocathode3inches";
+//New pmt glass, transparent to UV added by V. Kulikovskiy
+GlassMaterial = "PMTGlass_R12199_02";
+PMTSurface = "PMTSurface";

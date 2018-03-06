@@ -1,0 +1,25 @@
+# materials.dat
+# material properties input data file for GenericLAND
+# read by GLG4InputDataReader
+#
+# Default "generic" version:  Glenn Horton-Smith, Dec 8, 2004
+#
+
+CREATE GlassTest
+
+DENSITY 2.230
+
+COMPONENTS
+G4_B   40   #5
+G4_O  554  #8
+G4_Na  17  #11
+G4_Al  11  #13
+G4_Si 378  #14
+COMPONENTS
+
+CREATE
+
+PROPERTY RINDEX
+OPTION eV
+2 1.51
+5 1.51

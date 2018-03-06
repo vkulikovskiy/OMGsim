@@ -1,0 +1,106 @@
+# materials.dat
+# material properties input data file for GenericLAND
+# read by GLG4InputDataReader
+#
+# Default "generic" version:  Glenn Horton-Smith, Dec 8, 2004
+#
+
+CREATE PhotoTest
+
+DENSITY 5
+
+COMPONENTS
+G4_K   40
+COMPONENTS
+
+CREATE
+
+
+PROPERTY  ABSLENGTH
+OPTION eV
+2.034 111.79e-6
+2.157 99.47e-6
+2.214 84.08e-6
+2.275 68.84e-6
+2.340 49.04e-6
+2.408 39.03e-6
+2.480 37.54e-6
+2.557 34.77e-6
+2.638 27.91e-6
+2.725 25.14e-6
+2.818 23.34e-6
+2.918 22.10e-6
+3.024 19.08e-6
+3.139 18.60e-6
+3.263 17.89e-6
+4.136 15.00e-6
+
+PROPERTY  RINDEX
+OPTION eV
+2.034 3.01
+2.157 3.06
+2.214 3.12
+2.275 3.2
+2.340 3.26
+2.408 3.09
+2.480 3.0
+2.557 3.0
+2.638 3.0
+2.725 2.87
+2.818 2.7
+2.918 2.610
+3.024 2.380
+3.139 2.180
+3.263 1.920
+4.136 1.7
+
+PROPERTY  KINDEX        # "Optical properties of bialkali photocathodes" D. Motta, S. Schonert. Table 3, KCsSb
+# UNITS  nm\E 1
+OPTION wavelength
+280 1.69
+380 1.69
+395 1.69
+410 1.71
+425 1.53
+440 1.50
+455 1.44
+470 1.34
+485 1.11
+500 1.06
+515 1.05
+530 0.86
+545 0.63
+560 0.53
+575 0.46
+590 0.42
+605 0.38
+620 0.37
+635 0.35
+650 0.34
+665 0.34
+680 0.33
+
+PROPERTY  EFFICIENCY  # data is from Hamamatsu catalog, curve 400K
+# UNITS  nm\E 1
+OPTION wavelength
+#
+200     0.0
+260     0.0
+270     0.01
+280     0.05
+285     0.10
+290     0.15
+300     0.18
+310     0.20
+330     0.25
+370     0.27
+420     0.25
+475     0.20
+500     0.17
+530     0.10
+570     0.05
+600     0.025
+630     0.01
+670     0.001
+700     0.0
+800     0.0

@@ -1,0 +1,100 @@
+# materials.dat
+# material properties input data file for GenericLAND
+# read by GLG4InputDataReader
+#
+# Default "generic" version:  Glenn Horton-Smith, Dec 8, 2004
+#
+
+CREATE PhotoMotta
+
+DENSITY 5
+
+COMPONENTS
+G4_K   40
+COMPONENTS
+
+CREATE
+
+PROPERTY  RINDEX
+OPTION eV
+2.034 2.7
+4.136 2.7
+
+PROPERTY  KINDEX        # "Optical properties of bialkali photocathodes" D. Motta, S. Schonert. Table 3, KCsSb
+# UNITS  nm\E 1
+OPTION wavelength
+280 1.5
+680 1.5
+
+PROPERTY  EFFICIENCY  # data is from Hamamatsu catalog, curve 400K
+# UNITS  nm\E 1
+OPTION wavelength
+#
+200     0.5
+800     0.5
+
+PROPERTY  THICKNESS     # Thickness of photocathode as function of Z position
+0 20e-6
+1 20e-6
+
+PROPERTY  ANGULAR_EFFICIENCY  # data is from scans best fit
+0 1
+1 1
+
+PROPERTY  ANGULAR_EFFICIENCY_ERROR
+0 0
+0 0
+
+
+CREATE PMTGlassMotta
+
+DENSITY 2.23
+
+COMPONENTS
+
+G4_Si 37.8
+G4_O  55.4
+G4_B  4.0
+G4_Na 1.7
+G4_Al 1.1
+
+COMPONENTS
+
+CREATE
+
+PROPERTY electronSensitive
+OPTION constant
+1
+
+PROPERTY ABSLENGTH
+OPTION wavelength
+250 1e6
+690 1e6
+
+
+PROPERTY RINDEX
+OPTION eV
+2.034 1.51
+4.136 1.51
+
+
+CREATE ScintillatorMotta
+
+DENSITY 2.23
+
+COMPONENTS
+G4_POLYVINYL_CHLORIDE 1
+COMPONENTS
+
+CREATE
+
+PROPERTY ABSLENGTH
+OPTION wavelength
+250 1e6
+690 1e6
+
+
+PROPERTY RINDEX
+OPTION eV
+2.034 1.5
+4.136 1.5

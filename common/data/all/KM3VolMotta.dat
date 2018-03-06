@@ -1,0 +1,50 @@
+GlassMotta:
+{
+        Name = "GlassMotta";
+
+        Prefix = "";
+
+        Material = "PMTGlassMotta";
+
+        VolumeKind = "Box";
+        X = 190000;
+        Y = 190000;
+        Z = 1;
+
+        CheckOverlaps = false;
+
+}
+
+VacuumMotta:
+{
+        Name = "VacuumMotta";
+
+        Prefix = "";
+
+        Material = "Vacuum";
+
+        VolumeKind = "Box";
+        X = 190000;
+        Y = 190000;
+        Z = 1;
+
+        CheckOverlaps = false;
+
+}
+
+ScintillatorMotta:
+{
+        Name = "ScintillatorMotta";
+
+        Prefix = "";
+
+        Material = "ScintillatorMotta";
+
+        VolumeKind = "Box";
+        X = 190000;
+        Y = 190000;
+        Z = 1;
+
+        CheckOverlaps = false;
+
+}

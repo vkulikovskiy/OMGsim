@@ -1,0 +1,122 @@
+
+PseudoOM:
+{
+        Name = "PseudoOM";
+
+        Prefix = "";
+
+        Material = "Absorber";
+
+        VolumeKind = "Sphere";
+        RadiusMin  = 0 ;
+        RadiusMax  = 165.1 ;
+        PhiMin     = 0.;
+        PhiMax     = 6.3;
+        ThetaMin   = 0.;
+        ThetaMax   = 3.15;
+        CheckOverlaps = false;
+}
+
+
+BackCap:
+{
+        Name = "BackCap";
+
+        Prefix = "";
+
+        VolumeKind = "Sphere";
+        RadiusMin  = 165.1 ;
+        RadiusMax  = 170.1 ;
+        PhiMin     = 0.;
+        PhiMax     = 6.3;
+        ThetaMin   = 0.;
+        ThetaMax   = 1.85;
+        CheckOverlaps = false;
+}
+
+BigCap:
+{
+        Name= "BigCap";
+        Prefix = "";
+
+        VolumeKind = "Box";
+        X = 250;
+        Y = 250;
+        Z = 10;
+        CheckOverlaps = false;
+}
+
+SmallCap:
+{
+        Name= "SmallCap";
+        Prefix = "";
+
+        VolumeKind = "Box";
+        X = 200;
+        Y = 200;
+        Z = 10;
+        CheckOverlaps = false;
+}
+
+BigCapSub:
+{
+        Name= "BigCapSub";
+        Prefix = "";
+        VolumeKind = "Subtraction";
+        X = 0;
+        Y = 0;
+        Z = 0;
+        RotTheta = 0;
+        RotPhi = 0;
+        RefVolume = "BigCap";
+        OperandVolume = "PseudoOM";
+        CheckOverlaps = false;
+}
+
+
+BigCapUnion:
+{
+        Name= "BigCapUnion";
+        Prefix = "";
+        VolumeKind = "Union";
+        X = 0;
+        Y = 0;
+        Z = 0;
+        RotTheta = 0;
+        RotPhi = 0;
+        RefVolume = "BigCapSub";
+        OperandVolume = "BackCap";
+        CheckOverlaps = false;
+}
+
+SmallCapSub:
+{
+        Name= "SmallCapSub";
+        Prefix = "";
+        VolumeKind = "Subtraction";
+        X = 0;
+        Y = 0;
+        Z = 0;
+        RotTheta = 0;
+        RotPhi = 0;
+        RefVolume = "SmallCap";
+        OperandVolume = "PseudoOM";
+        CheckOverlaps = false;
+}
+
+
+SmallCapUnion:
+{
+        Name= "SmallCapUnion";
+        Prefix = "";
+        VolumeKind = "Union";
+        X = 0;
+        Y = 0;
+        Z = 0;
+        RotTheta = 0;
+        RotPhi = 0;
+        RefVolume = "SmallCapSub";
+        OperandVolume = "BackCap";
+        CheckOverlaps = false;
+}
+

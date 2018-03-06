@@ -1,0 +1,26 @@
+/KM3/XP/Type K40
+/KM3/det/DetectorTypeName KM3K40
+
+/KM3/det/setTargetScattering 1
+#/KM3/det/setTargetMaterial AntaresWater
+/KM3/det/setTargetMaterial NEMOWater
+/KM3/det/DontDraw bento absorber
+/KM3/det/setWorldLength 10 m
+
+/KM3/GenType 1
+
+/run/verbose 0
+/run/initialize
+/tracking/storeTrajectory 0
+
+/gps/pos/shape Sphere
+/gps/pos/radius 10 m
+/gps/pos/centre 0 0 0
+/gps/pos/type Volume
+/gps/particle ion
+/gps/ion 19 40
+/gps/pos/confine Target
+
+/tracking/verbose 0
+/event/verbose 0
+/run/beamOn 1000

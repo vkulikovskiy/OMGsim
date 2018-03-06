@@ -1,0 +1,170 @@
+Floor1:
+{
+        Name = "1Floor";
+
+        Prefix = "";
+
+        Material = "NEMOWater";
+
+        VolumeKind = "Sphere";
+        RadiusMin  = 0 ;
+        RadiusMax  = 40000. ;
+        PhiMin     = 0.;
+        PhiMax     = 6.3;
+        ThetaMin   = 0.;
+        ThetaMax   = 3.15;
+
+        CheckOverlaps = false;
+}
+
+Floor2:
+{
+        Name = "2Floor";
+
+        Prefix = "";
+
+        Material = "NEMOWater";
+
+        VolumeKind = "Sphere";
+        RadiusMin  = 40000 ;
+        RadiusMax  = 80000. ;
+        PhiMin     = 0.;
+        PhiMax     = 6.3;
+        ThetaMin   = 0.;
+        ThetaMax   = 3.15;
+
+        CheckOverlaps = false;
+}
+
+Floor3:
+{
+        Name = "3Floor";
+
+        Prefix = "";
+
+        Material = "NEMOWater";
+
+        VolumeKind = "Sphere";
+        RadiusMin  = 80000 ;
+        RadiusMax  = 120000. ;
+        PhiMin     = 0.;
+        PhiMax     = 6.3;
+        ThetaMin   = 0.;
+        ThetaMax   = 3.15;
+
+        CheckOverlaps = false;
+}
+
+Floor4:
+{
+        Name = "4Floor";
+
+        Prefix = "";
+
+        Material = "NEMOWater";
+
+        VolumeKind = "Sphere";
+        RadiusMin  = 120000 ;
+        RadiusMax  = 160000. ;
+        PhiMin     = 0.;
+        PhiMax     = 6.3;
+        ThetaMin   = 0.;
+        ThetaMax   = 3.15;
+
+        CheckOverlaps = false;
+}
+
+Floor5:
+{
+        Name = "5Floor";
+
+        Prefix = "";
+
+        Material = "NEMOWater";
+
+        VolumeKind = "Sphere";
+        RadiusMin  = 160000 ;
+        RadiusMax  = 200000. ;
+        PhiMin     = 0.;
+        PhiMax     = 6.3;
+        ThetaMin   = 0.;
+        ThetaMax   = 3.15;
+
+        CheckOverlaps = false;
+}
+
+Floor6:
+{
+        Name = "6Floor";
+
+        Prefix = "";
+
+        Material = "NEMOWater";
+
+        VolumeKind = "Sphere";
+        RadiusMin  = 200000 ;
+        RadiusMax  = 240000. ;
+        PhiMin     = 0.;
+        PhiMax     = 6.3;
+        ThetaMin   = 0.;
+        ThetaMax   = 3.15;
+
+        CheckOverlaps = false;
+}
+
+Floor7:
+{
+        Name = "7Floor";
+
+        Prefix = "";
+
+        Material = "NEMOWater";
+
+        VolumeKind = "Sphere";
+        RadiusMin  = 240000 ;
+        RadiusMax  = 280000. ;
+        PhiMin     = 0.;
+        PhiMax     = 6.3;
+        ThetaMin   = 0.;
+        ThetaMax   = 3.15;
+
+        CheckOverlaps = false;
+}
+
+Floor8:
+{
+        Name = "8Floor";
+
+        Prefix = "";
+
+        Material = "NEMOWater";
+
+        VolumeKind = "Sphere";
+        RadiusMin  = 280000 ;
+        RadiusMax  = 320000. ;
+        PhiMin     = 0.;
+        PhiMax     = 6.3;
+        ThetaMin   = 0.;
+        ThetaMax   = 3.15;
+
+        CheckOverlaps = false;
+}
+
+Floor9:
+{
+        Name = "9Floor";
+
+        Prefix = "";
+
+        Material = "NEMOWater";
+
+        VolumeKind = "Sphere";
+        RadiusMin  = 320000 ;
+        RadiusMax  = 360000. ;
+        PhiMin     = 0.;
+        PhiMax     = 6.3;
+        ThetaMin   = 0.;
+        ThetaMax   = 3.15;
+
+        CheckOverlaps = false;
+}

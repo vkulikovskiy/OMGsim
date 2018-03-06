@@ -1,0 +1,14 @@
+Name = "WLSOpticalFiber";
+
+Prefix = "";
+
+Material = "WLSpterphenylHI";
+
+VolumeKind = "Tub";
+RadiusMin = 0;
+RadiusMax = 5;
+PhiMin    = 0;
+PhiMax    = 6.4;
+Z = 10000;
+
+CheckOverlaps = false;

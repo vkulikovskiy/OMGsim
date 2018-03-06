@@ -1,0 +1,37 @@
+Name = "MottaTest"
+
+Volume1:
+{
+        Name = "GlassMotta";
+        ID = 1;
+        X = 0;
+        Y = 0.;
+        Z = 0.;
+        Theta = 0.;
+        Phi = 0.;
+
+        BorderSurfaceWith = "VacuumMotta";
+        BorderSurfaceMaterial = "PhotoMotta";
+};
+
+Volume2:
+{
+        Name = "VacuumMotta";
+        ID = 1;
+        X = 0;
+        Y = 0.;
+        Z = -2;
+        Theta = 0.;
+        Phi = 0.;
+};
+
+Volume3:
+{
+        Name = "ScintillatorMotta";
+        ID = 1;
+        X = 0;
+        Y = 0.;
+        Z = 2;
+        Theta = 0.;
+        Phi = 0.;
+};
