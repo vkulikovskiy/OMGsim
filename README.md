@@ -1,5 +1,6 @@
 # OMGsim
 Optical Modules Geant4 simulation
+Authors: Christophe Hugon - CPPM (CNRS) and Vladimir Kulikovskiy - INFN Genova§
 
 Documentation 
 ========================
